@@ -183,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (vid != null) {
             vidUri_glob = FileProvider.getUriForFile(this,
-                    "com.cvit.haard.attendance",
+                    "*removed for privacy reasons*",
                     vid);
         }
 
@@ -348,7 +348,7 @@ public class MainActivity extends AppCompatActivity {
 //            try {
 //                String uploadId = UUID.randomUUID().toString();
 //
-//                String s = new MultipartUploadRequest(this, uploadId, "https://cvit.iiit.ac.in/biometrics/simple.php")
+//                String s = new MultipartUploadRequest(this, uploadId, "*removed for privacy reasons*")
 //                        .addFileToUpload( mCurrentVidPath, "video")
 //                        .addParameter("name", "hello.mp4")
 //                        .addParameter("id", id)
@@ -413,7 +413,7 @@ public class MainActivity extends AppCompatActivity {
 //            try {
 //                String uploadId = UUID.randomUUID().toString();
 //
-//                String s = new MultipartUploadRequest(this, uploadId, "https://cvit.iiit.ac.in/biometrics/simple.php")
+//                String s = new MultipartUploadRequest(this, uploadId, "*removed for privacy reasons*")
 //                        .addFileToUpload( mCurrentPhotoPath, "image") //Adding file
 //                        .addParameter("name", "hello1.jpg") //Adding text parameter to the request
 //                        .addParameter("id", id)
@@ -514,7 +514,7 @@ public class MainActivity extends AppCompatActivity {
         }else{
             try{
                 FileInputStream fileInputStream = new FileInputStream(selectedFile);
-                URL url = new URL("https://cvit.iiit.ac.in/biometrics/simple.php");
+                URL url = new URL("*removed for privacy reasons*");
                 connection = (HttpURLConnection) url.openConnection();
                 connection.setDoInput(true);//Allow Inputs
                 connection.setDoOutput(true);//Allow Outputs
